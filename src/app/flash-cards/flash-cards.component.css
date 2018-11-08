@@ -1,15 +1,43 @@
+#flash {
+  width: 30%;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 50px;
+
+
+}
+
+.timer {
+  color: white;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+h4 {
+    padding: 15px;
+    /* line-height: 250px; */
+    word-wrap: break-all;
+
+
+}
+
+.flashAnswers {
+    padding: 15px;
+
+}
 
 div {
-  width: 30%;
   border-radius: 10px;
-  float: left;
-  margin: 5px;
 }
+
 .flip-card {
   background-color: transparent;
   width: 100%;
   height: 300px;
-  perspective: 1000px;
+  perspective: 100% ;
   margin: 5%;
   float: center;
 }
@@ -37,13 +65,26 @@ div {
 
 .flip-card-front {
   background-color: #1c3d72;
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/sea-edge-311c5cd5.png");
   color: black;
   z-index: 1;
 }
 
 .flip-card-back {
   background-color: #2980b9;
-  color: black;
+  color: white;
   transform: rotateY(180deg);
   z-index: 1;
+  background-image: url("http://3.bp.blogspot.com/-7_SL72jHg-Y/ThFs5MwZUBI/AAAAAAAAAJ8/GLV1x9j__8I/s400/blue-serenity-animated-wavy+2.gif");
+
+}
+
+.additionalResources {
+  margin-left:45%;
+  color: red;
+  font-size: 35px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
