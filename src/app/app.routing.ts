@@ -15,6 +15,7 @@ const appRoutes: Routes = [
     component: HomepageComponent
   },
   {
+<<<<<<< HEAD
     path: 'quiz',
     component: QuizComponent
   },
@@ -22,6 +23,28 @@ const appRoutes: Routes = [
     path: 'flash-cards',
     component: FlashCardsComponent
   }
+=======
+    path: 'csharp',
+    component: FlashCardsComponent
+  }, 
+  {
+    path: 'interview',
+    component: FlashCardsComponent
+  },
+  {
+    path: 'js',
+    component: FlashCardsComponent
+  },
+  {
+    path: 'html',
+    component: FlashCardsComponent
+  },
+  {
+    path: 'settings',
+    component: SettingsComponent
+  },
+
+>>>>>>> 1007022bd59fea5f19d15d2dddf1917184326cfc
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
