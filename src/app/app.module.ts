@@ -10,11 +10,8 @@ import { AppComponent } from './app.component';
 import { SettingsComponent } from './settings/settings.component';
 import { TimerComponent } from './timer/timer.component';
 import { FlashCardsComponent } from './flash-cards/flash-cards.component';
-<<<<<<< HEAD
-=======
 import { FormsModule }  from '@angular/forms';
 import { FlashCard } from './flash-card.model'
->>>>>>> 1007022bd59fea5f19d15d2dddf1917184326cfc
 import * as $ from 'jquery';
 import { QuizComponent } from './quiz/quiz.component';
 import { NavbarComponent } from './navbar/navbar.component';

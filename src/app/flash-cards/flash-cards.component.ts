@@ -17,12 +17,6 @@ export class FlashCardsComponent implements OnInit {
 
   constructor(private flashcardService: FlashCardService, private router: Router){}
     ngOnInit(){
-<<<<<<< HEAD
-      this.flashcards = this.flashcardService.getCards();
-      $(document).ready(function(){
-        alert("jquery works");
-      });
-=======
       if(this.router.url === '/csharp'){
         this.flashcards=this.flashcardService.getCsharpQuestions()
       } else if (this.router.url ==='/interview'){
@@ -31,7 +25,6 @@ export class FlashCardsComponent implements OnInit {
         this.flashcards=this.flashcardService.getJSQuestions()
       } else if (this.router.url === '/html'){
         this.flashcards=this.flashcardService.getHTMLQuestions();
->>>>>>> 1007022bd59fea5f19d15d2dddf1917184326cfc
       }
     }
 }
