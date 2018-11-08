@@ -39,6 +39,10 @@ const appRoutes: Routes = [
     path: 'settings',
     component: SettingsComponent
   },
+  {
+    path: 'angular',
+    component: FlashCardsComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

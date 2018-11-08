@@ -49,8 +49,16 @@ export class FlashCardService {
     FLASHCARD.forEach(function(card){
       if(card.category === "html"){
         arr.push(card);
-      } else if (card.category === "angular"){
-        arr.push(card)
+      }
+    })
+    return arr;
+  }
+
+  getAngularQuestions(){
+    let arr: FlashCard[]=[]
+    FLASHCARD.forEach(function(card){
+      if(card.category === "angular"){
+        arr.push(card);
       }
     })
     return arr;

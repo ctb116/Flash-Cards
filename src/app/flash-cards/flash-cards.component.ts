@@ -44,6 +44,8 @@ export class FlashCardsComponent implements OnInit {
         this.flashcards=this.flashcardService.getJSQuestions()
       } else if (this.router.url === '/html'){
         this.flashcards=this.flashcardService.getHTMLQuestions();
+      } else if(this.router.url === '/angular'){
+        this.flashcards=this.flashcardService.getAngularQuestions();
       }
     }
 }
